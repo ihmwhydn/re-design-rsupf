@@ -47,7 +47,7 @@ var app = new Vue({
       alur: [
         {
           video: 'https://raw.githubusercontent.com/ihmwhydn/repo-image/master/rsf/video/Alur%20SISRUTE.mp4',
-          title: 'Alur SISRUTE (Sistem Rujukan Terintegrasi)',
+          title: 'Alur Sistem Rujukan Terintegrasi',
           desc: 'Sistem Rujukan Terintegrasi (Sisrute) merupakan sebuah aplikasi untuk penyelenggaraan pelayanan kesehatan antar Fasilitas kesehatan. Sisrute Pelayanan kesehatan tingkat rujukan terdiri atas fasilitas kesehatan sekunder dan tersier. Sisrute mempunyai fungsi dalam menbantu Perumusan kebijakan strategis dan teknis dibidang kesehatan rujukan yang berkesinambungan dan mendukung penyelenggaraan pemerintahan daerah di bidang kesehatan. Sumber data yang digunakan adalah data sekunder yang sudah ada di rumah sakit.',
           descb: 'Aplikasi Sisrute sangat membantu percepatan pelayanan,  memudahkan informasi rujukan terkait kejelasan pasien dapat diterima oleh RS yang dirujuk, mudah melakukan konsultasi dalam penanganan pasien lebih terarah dan meminimalkan penolakan pasien dengan koordinasi dan komunikasi antara RS dengan RS yang ingin dirujuk/RS penerima. Kendala penggunaan Sisrute yaitu:   Server Internet tidak stabil dan  data-data pasien yang dirujuk tidak lengkap sesuai dengan form yang ada di sistem sehingga menyulitkan RS penerima menerima jawaban. Kelebihan penggunaan Sisrute yaitu yaitu perujuk bisa mengetahui tujuan Rumah Sakit sesuai kebutuhan pasien, memastikan pasien sudah mendapatkan perawatan dari RS yang dirujuk, perujuk bisa dapat kepastian terhadap pasien yang akan dirujuk.'
         },
