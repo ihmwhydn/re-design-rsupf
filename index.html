@@ -468,56 +468,58 @@
 
     <div id="survey" class="survey mt-5 mb-5">
       <div class="container">
+        <a class="h6 garis-bawah font-weight-bold mb-0 pb-2">Masukan Dan Laporan</a>
+        <hr class="mt-2">
         <div class="row justify-content-center">
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-lg-6 col-xl-4 mb-2 mb-xl-0">
             <div class="survey-card text-center shadow h-100 p-4">
-              <img :src="info.whistleblower" class="img-fluid" alt="Responsive image" style="width: 10rem;">
+              <img :src="info.whistleblower" class="img-fluid" alt="Responsive image" style="width: 8rem;">
               <p class="h6 mb-0 mt-4">
                 LAPORKAN TINDAKAN CURANG INDIKASI KORUPSI MELALUI WHISTLE BLOWER
               </p>
-              <a class="btn btn-green mt-4" role="button" data-toggle="modal" data-target="#basicExampleModal">Klik Disini</a>
+              <a class="btn btn-sm btn-green mt-4" role="button" data-toggle="modal" data-target="#basicExampleModal">Klik Disini</a>
             </div>
           </div>
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-lg-6 col-xl-4 mb-2 mb-xl-0">
             <div class="survey-card text-center shadow h-100 p-4">
               <p class="h6 font-weight-bold mb-3 animated flash infinite slower">
                 Kuisioner Penilaian Pelayanan <br> RSUP Fatmawati
               </p>
               <div class="row">
                 <div class="col-6">
-                  <img :src="info.kuisicon1" class="img-fluid animated flash infinite slower" alt="Responsive image">
+                  <img :src="info.kuisicon1" class="img-fluid animated flash infinite slower" alt="Responsive image" style="width: 8.5rem;">
                 </div>
                 <div class="col-6">
-                  <img :src="info.kuisicon2" class="img-fluid animated flash infinite slower" alt="Responsive image">
+                  <img :src="info.kuisicon2" class="img-fluid animated flash infinite slower" alt="Responsive image" style="width: 8.5rem;">
                 </div>
               </div>
-              <a class="btn btn-green mt-4" role="button" data-toggle="modal" data-target="#basicExampleModal">
+              <a class="btn btn-sm btn-green mt-4" role="button" data-toggle="modal" data-target="#basicExampleModal">
                 Klik Disini
               </a>
             </div>
           </div>
-        </div>
-        <div class="row justify-content-center mt-5">
-          <div class="col-12 col-lg-6">
-            <div class="survey-card text-center shadow p-5">
-              <p class="h6 mb-3">Puas Dengan Pelayanan Website Ini ?</p>
-              <div class="survey-form mb-3">
-                <div class="custom-control custom-radio custom-control-inline">
-                  <input type="radio" class="custom-control-input" id="defaultInline1" name="inlineDefaultRadiosExample">
-                  <label class="custom-control-label" for="defaultInline1">YA</label>
+          <div class="col-12 col-lg-6 col-xl-4 mb-2 mb-xl-0">
+            <div class="survey-card d-flex justify-content-center align-items-center text-center shadow p-5 h-100">
+              <div class="flex-item">
+                <p class="h6 mb-3">Puas Dengan Pelayanan Website Ini ?</p>
+                <div class="survey-form mb-3">
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" class="custom-control-input" id="defaultInline1" name="inlineDefaultRadiosExample">
+                    <label class="custom-control-label" for="defaultInline1">YA</label>
+                  </div>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" class="custom-control-input" id="defaultInline2" name="inlineDefaultRadiosExample">
+                    <label class="custom-control-label" for="defaultInline2">TIDAK</label>
+                  </div>
                 </div>
-                <div class="custom-control custom-radio custom-control-inline">
-                  <input type="radio" class="custom-control-input" id="defaultInline2" name="inlineDefaultRadiosExample">
-                  <label class="custom-control-label" for="defaultInline2">TIDAK</label>
+                <div class="tombol">
+                  <a class="btn btn-sm btn-green" role="button" data-toggle="modal" data-target="#basicExampleModal">
+                    VOTE
+                  </a>
+                  <a class="btn btn-sm btn-green" role="button" data-toggle="modal" data-target="#basicExampleModal">
+                    RESULT
+                  </a>
                 </div>
-              </div>
-              <div class="tombol">
-                <a class="btn btn-green" role="button" data-toggle="modal" data-target="#basicExampleModal">
-                  VOTE
-                </a>
-                <a class="btn btn-green" role="button" data-toggle="modal" data-target="#basicExampleModal">
-                  RESULT
-                </a>
               </div>
             </div>
           </div>
