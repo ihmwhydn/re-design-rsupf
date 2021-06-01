@@ -1,9 +1,5 @@
 $(document).ready(function(){
 
-  $('.carousel').carousel({
-    interval: 3000
-  })
-
   $('#myModal-3').modal({
     backdrop: true
   })
@@ -31,6 +27,13 @@ $(document).ready(function(){
     }
 })
 
-
+$(window).scroll(function(){
+  var scroll = $(window).scrollTop();
+  if (scroll > 67){
+    $(".navbar").removeClass('shadow-none').addClass('shadow');
+  } else{
+    $(".navbar").removeClass('shadow').addClass('shadow-none');
+  }
+})
 
 });
