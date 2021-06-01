@@ -31,13 +31,6 @@ $(document).ready(function(){
     }
 })
 
-$(window).scroll(function(){
-  var scroll = $(window).scrollTop();
-  if (scroll > 67){
-    $(".navbar").removeClass('shadow-none').addClass('shadow');
-  } else{
-    $(".navbar").removeClass('shadow').addClass('shadow-none');
-  }
-})
+
 
 });
