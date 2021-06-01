@@ -62,7 +62,7 @@ var app = new Vue({
         {
           id: 1,
           img: 'https://raw.githubusercontent.com/ihmwhydn/repo-image/master/rsf/video/v-1.jpeg',
-          video: 'http://rsupfatmawati.id//assets/uploads/video/1621480671LEBARANDIREKSI.mp4',
+          video: 'https://raw.githubusercontent.com/ihmwhydn/repo-image/master/rsf/video/video-kegiatan.mp4',
           modalid: 'basicExampleModal-2',
           modalidtarget: '#basicExampleModal-2',
           modalabel: 'exampleModalLabel-2',
@@ -73,7 +73,7 @@ var app = new Vue({
         {
           id: 2,
           img: 'https://raw.githubusercontent.com/ihmwhydn/repo-image/master/rsf/video/v-2.jpg',
-          video: 'http://rsupfatmawati.id//assets/uploads/video/1621480873WBKIRJBUYUNITA104.mp4',
+          video: 'https://raw.githubusercontent.com/ihmwhydn/repo-image/master/rsf/video/video-kegiatan.mp4',
           modalid: 'basicExampleModal-3',
           modalidtarget: '#basicExampleModal-3',
           modalabel: 'exampleModalLabel-3',
@@ -84,7 +84,7 @@ var app = new Vue({
         {
           id: 3,
           img: 'https://raw.githubusercontent.com/ihmwhydn/repo-image/master/rsf/video/v-3.jpg',
-          video: 'http://rsupfatmawati.id//assets/uploads/video/1620794282IKLANLEBARANDILARANGMUDIK.mp4',
+          video: 'https://raw.githubusercontent.com/ihmwhydn/repo-image/master/rsf/video/video-kegiatan.mp4',
           modalid: 'basicExampleModal-4',
           modalidtarget: '#basicExampleModal-3',
           modalabel: 'exampleModalLabel-4',
@@ -95,7 +95,7 @@ var app = new Vue({
         {
           id: 4,
           img: 'https://raw.githubusercontent.com/ihmwhydn/repo-image/master/rsf/video/v-4.jpg',
-          video: 'http://rsupfatmawati.id//assets/uploads/video/1616031132PERAWAT.mp4',
+          video: 'https://raw.githubusercontent.com/ihmwhydn/repo-image/master/rsf/video/video-kegiatan.mp4',
           modalid: 'basicExampleModal-5',
           modalidtarget: '#basicExampleModal-5',
           modalabel: 'exampleModalLabel-5',
@@ -106,7 +106,7 @@ var app = new Vue({
         {
           id: 5,
           img: 'https://raw.githubusercontent.com/ihmwhydn/repo-image/master/rsf/video/v-5.jpg',
-          video: 'http://rsupfatmawati.id//assets/uploads/video/1620632099DIABET.mp4',
+          video: 'https://raw.githubusercontent.com/ihmwhydn/repo-image/master/rsf/video/video-kegiatan.mp4',
           modalid: 'basicExampleModal-6',
           modalidtarget: '#basicExampleModal-6',
           modalabel: 'exampleModalLabel-6',
@@ -117,7 +117,7 @@ var app = new Vue({
         {
           id: 6,
           img: 'https://raw.githubusercontent.com/ihmwhydn/repo-image/master/rsf/video/v-6.jfif',
-          video: 'http://rsupfatmawati.id//assets/uploads/video/1620181715PRB2.mp4',
+          video: 'https://raw.githubusercontent.com/ihmwhydn/repo-image/master/rsf/video/video-kegiatan.mp4',
           modalid: 'basicExampleModal-7',
           modalidtarget: '#basicExampleModal-7',
           modalabel: 'exampleModalLabel-7',
