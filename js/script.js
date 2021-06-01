@@ -19,7 +19,8 @@ $(document).ready(function(){
     autoplay:true,
     responsive:{
         0:{
-            items:1
+            items:1,
+            autoplay: false
         },
         992:{
             items:2
